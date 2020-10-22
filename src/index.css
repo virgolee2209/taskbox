@@ -312,6 +312,7 @@
  }
  input:-webkit-autofill {
    -webkit-box-shadow: 0 0 0 1000px white inset;
+   box-shadow: 0 0 0 1000px white inset;
  }
  .checkbox {
    display: inline-block;
@@ -345,7 +346,7 @@
    color: #2cc5d2;
    margin-top: -1px;
    font-family: 'percolate';
-   speak: none;
+   /*speak: none;*/
    font-style: normal;
    font-weight: normal;
    font-variant: normal;
@@ -399,7 +400,7 @@
  [class^="icon-"],
  [class*=" icon-"] {
    font-family: "percolate";
-   speak: none;
+   /* speak: none; */
    font-style: normal;
    font-weight: normal;
    font-variant: normal;
@@ -874,10 +875,10 @@
    line-height: 3rem;
    text-align: center;
  }
- .list-item.TASK_PINNED .icon-star {
+ .list-item.TASK_STATE_PINNED .icon-star {
    color: #2cc5d2;
  }
- .list-item.TASK_ARCHIVED input[type="text"] {
+ .list-item.TASK_STATE_ARCHIVED input[type="text"] {
    color: #aaa;
  }
  .list-item:hover {

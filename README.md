@@ -66,3 +66,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### Note: In case StoryBook can not run because of error "Invalid Hook call"
+
+1.Delete yarn.lock file
+2.Run yarn command in terminal to re-build all dependencies.
